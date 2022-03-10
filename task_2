@@ -1,0 +1,10 @@
+
+    public static void main(String[] args) {
+
+// Напишете програма, която да събира две числа и да отпечата резултата в конзолата.
+
+        int a = 18;
+        int b = 13;
+        System.out.print(a + b);
+    }
+}
