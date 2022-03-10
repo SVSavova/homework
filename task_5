@@ -1,0 +1,22 @@
+
+    public static void main(String[] args) {
+
+/* Напишете програма, която повдига на степен 2-ра числата: -20, 92, 638, 73, 200, -22.
+ Резултатите да се отпечатат на един и същи ред.*/
+
+        int a = -20;
+        int b = 92;
+        int c = 638;
+        int d = 73;
+        int e = 200;
+        int f = -22;
+
+        System.out.print(Math.pow(a, 2) + " ");
+        System.out.print(Math.pow(b, 2) + " ");
+        System.out.print(Math.pow(c, 2) + " ");
+        System.out.print(Math.pow(d, 2) + " ");
+        System.out.print(Math.pow(e, 2) + " ");
+        System.out.print(Math.pow(f, 2) + " ");
+
+    }
+}
