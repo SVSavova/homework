@@ -1,0 +1,19 @@
+
+    public static void main(String[] args) {
+
+/*
+Напишете програма, която да показва абсолютната стойност на числата: -147, 0, 13, 18.
+Резултатите да се изпечатат в конзолата на един и същ ред с разделителна табулация.
+ */
+        int a = -147;
+        int b = 0;
+        int c = 13;
+        int d = 18;
+
+        System.out.print(Math.abs(a) + "\t");
+        System.out.print(Math.abs(b) + "\t");
+        System.out.print(Math.abs(c) + "\t");
+        System.out.print(Math.abs(d));
+
+    }
+}
