@@ -1,0 +1,25 @@
+
+    public static void main(String[] args) {
+
+/* Напишете програма, която изчислява корен квадатен на числата: 8, 353, 78, 3, -67, 723, 200, -100.
+Резултатите да се отпечатат на един ред. */
+        int a = 8;
+        int b = 353;
+        int c = 75;
+        int d = 3;
+        int e = -67;
+        int f = 723;
+        int g = 200;
+        int h = -100;
+
+        System.out.print(Math.sqrt(a) + " ");
+        System.out.print(Math.sqrt(b)+ " ");
+        System.out.print(Math.sqrt(c)+ " ");
+        System.out.print(Math.sqrt(d)+ " ");
+        System.out.print(Math.sqrt(e)+ " ");
+        System.out.print(Math.sqrt(f)+ " ");
+        System.out.print(Math.sqrt(g)+ " ");
+        System.out.print(Math.sqrt(h));
+
+    }
+}
