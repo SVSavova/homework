@@ -3,9 +3,9 @@
 Напишете програма, която да отпечата броя букви на първото Ви име. След това го отпечатайте
 веднъж с главни и веднъж - с малки букви.
 */
-        String myName = "Stefka";
+        String name = "Stefka";
 
-        System.out.println("My name is " + myName);
+        System.out.println("My name is " + name);
         System.out.println(myName.length() + " letters");
         System.out.println(myName.toLowerCase(Locale.ROOT));
         System.out.println(myName.toUpperCase(Locale.ROOT));
