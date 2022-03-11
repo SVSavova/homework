@@ -6,9 +6,9 @@
         String name = "Stefka";
 
         System.out.println("My name is " + name);
-        System.out.println(myName.length() + " letters");
-        System.out.println(myName.toLowerCase(Locale.ROOT));
-        System.out.println(myName.toUpperCase(Locale.ROOT));
+        System.out.println(name.length() + " letters");
+        System.out.println(name.toLowerCase(Locale.ROOT));
+        System.out.println(name.toUpperCase(Locale.ROOT));
 
     }
 }
