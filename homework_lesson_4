@@ -1,0 +1,30 @@
+   public static void main(String[] args) {
+        /*
+        Напишете програма, която:
+        1. Извежда името ви в конзолата;
+        2. Сравнява го с името на приятеля ви, като се използва equals(), equalsIgnoreCase(), compareTo();
+        3. На нов ред долепя името до фамилията ви;
+        4. Извежда на нов ред вашата възраст;
+        5. Извежда името, фамилията и възрастта на приятеля ви на нов ред
+         */
+
+        String myName = "Stefka";
+        String mySurname;
+        String myHusbendName = "Svilen";
+        String myHusbendSurname;
+        byte myAge = 48;
+        byte myHusbendAge = 55;
+        char space = ' ';
+
+        System.out.println(myName);
+        System.out.println(myName.equals(myHusbendName));
+        System.out.println(myName.equalsIgnoreCase (myHusbendName));
+        System.out.println(myName.compareTo(myHusbendName));
+            mySurname = "Savova";
+        System.out.println(myName + " " + mySurname);
+        System.out.println(myAge);
+            myHusbendSurname = "Savov";
+        System.out.println(myHusbendName + " " + myHusbendSurname + ", " + myHusbendAge);
+
+    }
+}
